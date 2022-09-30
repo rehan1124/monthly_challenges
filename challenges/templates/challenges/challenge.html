@@ -1,0 +1,19 @@
+{% extends "base.html" %} {% load static %}
+
+<!-- CSS -->
+{%block css_files%}
+<link rel="stylesheet" href="{% static 'challenges/challenge.css' %}" />
+<link rel="stylesheet" href="{% static 'challenges/includes/header.css' %}" />
+{%endblock%}
+
+<!-- Page title -->
+{% block page_title %} {{ mc_m|title }} challenge 🏃‍♀️🏃‍♂️ {% endblock %}
+
+<!-- Body content -->
+{% block content %} {% include "challenges/includes/header.html" %}
+<h1>--- Challenge for {{ mc_m|title }} ---</h1>
+{% if mc_ct is not None %}
+<h2>{{ mc_ct }}</h2>
+{% else %}
+<h2>Take rest guy !!! 😌</h2>
+{% endif %} {% endblock %}

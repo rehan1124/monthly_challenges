@@ -1,0 +1,50 @@
+{
+  "result": [
+    {
+      "currentPeriod": {
+        "data": [
+          {
+            "period_start_date": "2022-01-01",
+            "period_end_date": "2022-01-31",
+            "traffic_per_site": 7855.683823529412,
+            "average_daily_sales": 1796350.9512903227,
+            "highest_traffic_site": {
+              "site_id": 80133583,
+              "formattedSiteName": "7124",
+              "value": 33573
+            },
+            "lowest_traffic_site": {
+              "site_id": 42799,
+              "formattedSiteName": "7003",
+              "value": 2107
+            },
+            "average_daily_traffic": 34463.645161290326,
+            "traffic": 1068373
+          }
+        ]
+      },
+      "period1": {
+        "data": [
+          {
+            "period_start_date": "2021-12-01",
+            "period_end_date": "2021-12-31",
+            "traffic_per_site": 10806.35294117647,
+            "average_daily_sales": 1682142.1322580643,
+            "highest_traffic_site": {
+              "value": 44300,
+              "value_change": -24.214446952595935
+            },
+            "lowest_traffic_site": {
+              "value": 5307,
+              "value_change": -60.29771999246278
+            },
+            "average_daily_traffic": 47408.51612903226,
+            "traffic": 1469664
+          }
+        ],
+        "aggregated": {}
+      },
+      "source": "data-gateway"
+    }
+  ]
+}
